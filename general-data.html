@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dog Size</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/themes/default/jquery.mobile-1.4.5.min.css" rel="stylesheet" type="text/css"/>
+        <script src="js/jquery.min.js" type="text/javascript"></script>
+        <script src="js/jquery.mobile-1.4.5.min.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <section data-role="page">
+            <header data-role="header">
+                <h3>บทความน่าอ่าน</h3>
+                <a href="index.html#home" rel="external" data-icon="home" data-iconpos="notext">Home</a>
+                <a href="index.html#main-menu" rel="external" data-icon="bullets" data-iconpos="notext">Menu</a>
+            </header>
+            <div data-role="content">
+                <img src="images/dogblog-logo.png" alt="" />
+                <div data-role="controlgroup">
+                    <a data-role="button" href="#document-dog">เรื่องน่ารู้เกี่ยวกับสุนัขพันธุ์ต่าง ๆ</a>
+                    <a data-role="button" href="#feed-dog">เทคนิคการเลี้ยง</a>
+                    <a data-role="button" href="#doctor-corner">มุมหมอหมา</a>
+                    <a data-role="button" href="#control-dog">การฝึก</a>
+                    <a data-role="button" href="#dog-closeup">Dog Close up</a>
+                </div>
+                <div data-role="navbar">
+                    <ul>
+                        <li><a data-icon="calendar">A</a></li>
+                        <li><a data-icon="camera">B</a></li>
+                        <li><a data-icon="clock">C</a></li>
+                    </ul>
+                </div>
+                <br><br><br><br><br><br><br><br><br>
+                <footer data-role="footer">
+                    <h3>&copy;2558 Athikan Thongjanya</h3>
+                </footer>
+        </section>
+
+        <!-- Page 1 = เรื่องน่ารู้เกี่ยวกับสุนับพันธุ์ต่าง ๆ -->
+       <section data-role="page" id="document-dog">
+            <header data-role="header">
+                <h3>เรื่องน่ารู้เกี่ยวกับสุนัขพันธุ์ต่าง ๆ</h3>
+                <a href="" data-rel="back" data-role="button" data-inline="true" 
+                   data-icon="back" data-iconpos="notext">Back</a>
+                <a href="index.html#main-menu" rel="external" data-icon="bullets" data-iconpos="notext">Menu</a>
+            </header>
+            <div data-role="content">
+                <br>
+                <div data-role="collapsible-set"> <!-- ข้อความอันใดอันหนึ่งแสดง อีกอันต้องซ่อน จะไม่แสดงพร้อมกัน -->
+                    <!-- <div data-role="collapsible" data-collapsed="false" data-collapsed-icon="home" 
+                         data-expanded-incon="calendar" data-inset="false">
+                        <h2>Topic #1</h2>-->
+                    <div data-role="collapsible">
+                        <h3>เรื่องน่ารู้เกี่ยวกับสุนัข</h3>
+                        <img src="images/Great Dane.jpg" alt=""/>
+                        <div class="ui-body ui-body-a">
+                            <p>&nbsp;&nbsp;&nbsp;หมา หรือ สุนัข เป็นสัตว์เลี้ยงลูกด้วยนม มีหลายชนิดหลายสกุล ลำตัวมีขนปกคลุม 
+                                มีเขี้ยว 2 คู่ ตีนหน้ามี 5 นิ้ว ตีนหลังมี 4 นิ้ว ซ่อนเล็บไม่ได้ หมามีทั้งที่เป็นสัตว์เลี้ยง และสัตว์ป่า กล่าวกันว่า 
+                                หมาเป็นสัตว์เลี้ยงชนิดแรกของมนุษย์ โดยมนุษย์รู้จักนำหมาป่ามาเลี้ยงตั้งแต่ยุคหินตอนปลายหรือประมาณ 4-6 
+                                หมื่นกว่าปีมาแล้ว ซึ่งครั้งแรกที่เลี้ยงก็เพื่อให้ช่วยล่าสัตว์ และเพราะหมาเป็นสัตว์ฉลาด ฝึกง่าย และมีความจงรักภักดี
+                                ต่อเจ้าของ หมาจึงกลายมาเป็นสัตว์เลี้ยงที่คนไว้วางใจมากที่สุด ปัจจุบันเชื่อว่าหมาเลี้ยงมีต้นกำเนิดมาจากหมาป่า
+                                พวก Wolf ชื่อ Canislupus หมาเลี้ยงในโลกขณะนี้มีอยู่ประมาณ 400 พันธุ์ โดยทั่วไปหมาจะมีลักษณะเด่น 
+                                และความสามารถพิเศษหลายอย่าง ได้แก่
+                                <br>&nbsp;&nbsp;&nbsp;- ตา หมาจะมองเห็นภาพเป็นสีขาว-ดำ และจะเห็นภาพได้ดีกว่าเดิมเมื่อสิ่งนั้น
+                                กำลังเคลื่อนไหว ส่วนหูหมา จะได้ยินเสียงดีกว่าคนถึง 4 เท่า แต่ยังไม่ดีเท่าแมว สมองหมา สามารถเรียนรู้
+                                และจดจำคำสั่งได้ 75-100 คำสั่ง จมูก รับกลิ่นได้ไวมาก เพราะในจมูกหมามีเซลล์อยู่ถึง 300 ล้านเซลล์ 
+                                เพื่อทำหน้าที่แยกแยะสิ่งต่างๆ ในขณะที่จมูกคนมีเพียง 50 ล้านเซลล์เท่านั้น และหมายังสามารถดมกลิ่นกระดูก
+                                ที่ฝังอยู่ในดินลึก 2 ฟุตได้ และยังจำกลิ่นต่างๆ ได้แม่นอีกด้วย 
+                                <br>&nbsp;&nbsp;&nbsp;ด้วยความสามารถนี้เอง ที่ปัจจุบันหมาจึงถูกฝึก
+                                ให้ทำหน้าที่พิเศษต่างๆ เพิ่มขึ้น เช่น ดมหายาเสพติด, วัตถุระเบิด, ตามคนหาย เป็นต้น หมามักอ้าปากแลบลิ้น
+                                เมื่อมันรู้สึกร้อน เนื่องจากมันไม่มีต่อมเหงื่อเพื่อขับเหงื่อ มันจึงระบายความร้อนผ่านทางลิ้นที่แลบยาวออกมา 
+                                นอกจากนี้ หมายังมีอุ้งตีนที่อ่อนนุ่มและยืดหยุ่นได้ แต่เล็บไม่สามารถกางเข้าออกได้อย่างแมว หมาใช้หางในการ
+                                ช่วยรักษาสมดุลขณะวิ่ง และขณะเปลี่ยนทิศทาง ถ้าอากาศหนาวหมาจะนอนขดตัวให้หางช่วยปกคลุมจมูกเพื่อรักษา
+                                อุณหภูมิร่างกายให้อบอุ่น ส่วนขาหลังของหมาจะมีกล้ามเนื้อที่แข็งแรง เพื่อช่วยในการกระโจนหรือวิ่งอย่างรวดเร็ว
+                                <br>&nbsp;&nbsp;&nbsp;- ภาษาของหมา แม้หมาจะเป็นสัตว์ แต่มันก็มีภาษา ท่าทางที่จะสื่อเพื่อให้หมา
+                                หรือคนเข้าใจมันได้ เช่น การที่หมาเยี่ยวไว้ตามโคนต้นไม้ เสาไฟฟ้า ล้อรถหรือที่ต่างๆ ที่มันผ่าน นอกจากจะ
+                                เพื่อแสดงอาณาเขตของแต่ละตัวแล้ว ยังเป็นการทำเครื่องหมายบอกทางให้มันสามารถดมเยี่ยวตัวเอง เพื่อกลับบ้าน
+                                ได้ถูกอีกด้วย แต่ถ้าหมาต่อสู้กัน และอีกตัวหนึ่งนอนหงาย หมายความว่าตัวนั้น บอกยอมแพ้แล้วจ้า, หากมันดม
+                                ก้นกัน หมายถึง การทำความรู้จักซึ่งกันและกัน เพราะว่ากันว่าก้นของหมาแต่ละตัว ก็มีกลิ่นเฉพาะของมันเอง 
+                                ส่วนหมาที่เป็นเพื่อนกัน หรือรู้สึกถูกชะตากัน ก็จะทักทายด้วยการดมกลิ่นซึ่งกันและกัน ตั้งแต่หัวถึงหาง และเมื่อ
+                                หมาต้องการแสดงการขอโทษ หรืออยากคืนดีด้วย มันจะหมอบลง แกว่งหาง และยกขาหน้าขึ้นเล็กน้อย 
+                                ถ้ามันอารมณ์ดี มันจะอ้าปากกว้าง แลบลิ้น ยกขาหน้าขึ้น หรือยกสะโพกขึ้น แล้วกระดิกหางไปมา หางของหมา
+                                จะบอกอารมณ์มันได้ เช่น หางยกสูงและแกว่ง แปลว่า ดีใจ หางอยู่นิ่งๆ แปลว่า ไม่แน่ใจ หากตกไม่เคลื่อนไหว 
+                                แปลว่า รู้สึกไม่ปลอดภัย และหากหางจุกตูด แปลว่า มันกลัว
+                                <br>&nbsp;&nbsp;&nbsp;คนสมัยโบราณเชื่อว่า ลักษณะของหมาที่เลี้ยง จะมีความสัมพันธ์กับความเจริญ 
+                                และความเสื่อมของผู้เป็นเจ้าของ ดังนั้น ก่อนจะนำหมามาเลี้ยง จึงต้องดูลักษณะของขน สีเท้า สีปาก หาง 
+                                และเล็บก่อน ซึ่งเขาสรุปว่า หมาที่ดีจะเป็นสีอะไรก็ได้ แต่ขอให้มีขนเป็นมันเลื่อมสวยงาม เชื่อกันว่าหากเลี้ยงหมา
+                                เช่นนี้ไว้ จะช่วยให้คนเกรงกลัว และทำให้เจ้าของเป็นเศรษฐี ส่วนหมาที่เลี้ยงแล้ว จะทำให้เจ้าของมั่งมีเงินทอง 
+                                ได้แก่ หมาที่มีขนสีขาว สี่เท้าด่างดำ หมาที่หางดอก(ปลายหางเป็นสีขาว) และเล็บขาว หมาที่ขนสีเหลือง
+                                สี่เท้าขาวดังสำลี หมาปากขาว ขนงาม หมาขนสีขาวแดงปนกัน หมามีเล็บทั้งหมดยี่สิบเล็บ และหมาสิบเก้าเล็บ 
+                                งามทั้งตัว 
+                                <br>&nbsp;&nbsp;&nbsp;ถ้ามีลักษณะนอกเหนือจากนี้ ท่านว่าห้ามเลี้ยง และว่าจะทำให้เหมือนถูกสาปแช่ง 
+                                ไม่เกิดลาภผล ส่วนทางภาคใต้เชื่อว่า หมาที่มีหนวด คือมีขนสีดำยาวที่คางล่าง 1 เส้น ถือเป็นยอดหมา 
+                                เพราะจะมีความทรหดอดทนและรอบคอบ และจะไม่นิยมเลี้ยงหมาที่หนวดเกิน 3 เส้น และหางหมาหากม้วน
+                                ไปทางซ้ายจะถือว่าไม่ดี ไม่เอาไหน ถ้าหางม้วนทางขวาถือว่าดี แต่ถ้าหางไม่ม้วน และชี้ขึ้นแบบแมงป่อง 
+                                จะมีนิสัยว่องไว ประเปรียว เหมาะเป็นหมาไล่เนื้อ แต่ถ้าหางลดลงต่ำยิ่งมากเท่าใด ก็แสดงว่ามีนิสัยขลาดกลัว 
+                            </p>
+                        </div> 
+                    </div>
+                    <br>
+                    <div data-role="collapsible">
+                        <h3>Topic #1.1</h3>
+                        <p>รายละเอียด 1.1.1</p>
+                    </div>
+                </div>
+                <div data-role="collapsible" data-iconpos="right" data-inset="false">
+                    <h2>Topic #2</h2>
+                    <p>การดูแลรักษา</p>
+                </div>
+            </div>
+            <footer data-role="footer">
+                <h3>&copy;2558 Athikan Thongjanya</h3>
+            </footer>
+        </section>
+
+        <!-- Page 2 : เทคนิคการเลี้ยง -->
+        <section data-role="page" id="feed-dog">
+            <header data-role="header">
+                <h3>เทคนิคการเลี้ยง</h3>
+                <a href="" data-rel="back" data-role="button" data-inline="true" 
+                   data-icon="back" data-iconpos="notext">Back</a>
+                <a href="index.html#main-menu" rel="external" data-icon="bullets" data-iconpos="notext">Menu</a>
+            </header>
+            <div data-role="content">
+                <img src="images/callie.jpg" alt=""/>
+                <p>เทคนิคการเลี้ยง <a data-rel="popup" href="#pop1" data-transition="slide">คำอธิบาย</a><br>
+                </p><!-- สร้าง pop up เพื่อชี้แจงรายละเอียดของข้อมูลที่ต้องการแสดง -->
+                <div data-role="popup" id="pop1">
+                    <!-- ทำ pop up แบบมี header และมีปุ่มปิด (X( -->
+                    <a data-rel="back" data-role="button" data-icon="delete" class="ui-btn-right" data-iconpos="notext"></a>
+                    <div data-role="header">Pop1</div>
+                    <div data-role="content">
+                        <p>พักหลัง ๆ มานี้ เพื่อน ๆ หลายคนคงจะเห็นได้ว่า ในสังคมออนไลน์เริ่มมีประเด็นถกเถียงกันเกี่ยวกับวิธีการเลี้ยงน้องหมา
+                            ของเจ้าของสุนัขที่ไม่ค่อยใส่ใจความรู้สึกส่วนรวมของคนอื่นกันมากขึ้น เช่น พาสุนัขเข้าไปนั่งในร้านอาหารที่มีคนอยู่เป็น
+                            จำนวนมาก ให้สุนัขกินอาหารในภาชนะเดียวกันกับคน พาสุนัขเดินตลาดสด ละเลยการดูแลปล่อยให้สุนัขวิ่งเล่นอึฉี่อย่างอิสระ 
+                            คุ้ยขยะภายในหมู่บ้าน ฯ ซึ่งสร้างความกังวลใจให้กับกลุ่มคนที่กลัวและไม่ชอบสุนัข โดยบางคนก็ได้ออกมาแสดงความคิดเห็น
+                            เกี่ยวกับพฤติกรรมการเลี้ยงของเจ้าของสุนัขว่า ไม่เหมาะสมและเป็นการเลี้ยงสุนัขอย่างไร้ความรับผิดชอบต่อสังคม</p>
+                    </div>
+                </div>
+                <!-- ถ้าสร้างธีมเป็นแบบ dialog ที่เป็น pop up ควรจะมีปุ่ม Close  -->
+                <!--<p class="plink">
+                    <a data-role="button" data-rel="back" data-inline="true" data-icon="delete">Close</a>
+                </p>-->
+            </div>
+            <footer data-role="footer">
+                <h3>&copy;2558 Athikan Thongjanya</h3>
+            </footer>    
+        </section>
+
+        <!-- Page 3 : มุมหมอหมา-->
+        <section data-role="page" id="doctor-corner">
+            <header data-role="header">
+                <h3>มุมหมอหมา</h3>
+                <a href="" data-rel="back" data-role="button" data-inline="true" 
+                   data-icon="back" data-iconpos="notext">Back</a>
+                <a href="index.html#main-menu" rel="external" data-icon="bullets" data-iconpos="notext">Menu</a>
+            </header>
+            <div data-role="content">
+                <img src="images/golden-retriever.jpg" alt=""/>
+                <p>โรคเนื้องอกและมะเร็งในน้องหมานั้นมีมากมายหลายชนิดเช่นเดียวกับในคนเลยครับ สามารถแบ่งแยกชนิดเรียกชื่อตามของเซลล์ต้นกำเนิด
+                    และจัดกลุ่มตามอวัยวะที่เกิดได้หลายชนิด อย่างโรคเนื้องอกและมะเร็งที่ มุมหมอหมา เคยนำมาเสนอไปแล้วก่อนหน้านี้ 
+                    ก็มีทั้งเนื้องอกที่ผิวหนัง เนื้องอกที่อวัยวะเพศ และเนื้องอกที่เต้านม ซึ่งล้วนแล้วแต่เป็นโรคที่พบได้บ่อยในสุนัขแทบทั้งนั้น </p>
+            </div>
+            <footer data-role="footer">
+                <h3>&copy;2558 Athikan Thongjanya</h3>
+            </footer>    
+        </section>
+
+        <!-- Page 4 : การฝึก -->
+        <section data-role="page" id="control-dog">
+            <header data-role="header">
+                <h3>การฝึก</h3>
+                <a href="" data-rel="back" data-role="button" data-inline="true" 
+                   data-icon="back" data-iconpos="notext">Back</a>
+                <a href="index.html#main-menu" rel="external" data-icon="bullets" data-iconpos="notext">Menu</a>
+            </header>
+            <div data-role="content">
+                <img src="images/dogblog-logo.png" alt=""/>
+                <p>การฝึก</p>
+            </div>
+            <footer data-role="footer">
+                <h3>&copy;2558 Athikan Thongjanya</h3>
+            </footer>    
+        </section>
+
+        <!-- Page 5 : Dog Close up -->
+        <section data-role="page" id="dog-closeup">
+            <header data-role="header">
+                <h3>Dog Close up</h3>
+                <a href="" data-rel="back" data-role="button" data-inline="true" 
+                   data-icon="back" data-iconpos="notext">Back</a>
+                <a href="index.html#main-menu" rel="external" data-icon="bullets" data-iconpos="notext">Menu</a>
+            </header>
+            <div data-role="content">
+                <img src="images/dogblog-logo.png" alt=""/>
+                <p>Dog Close up</p>
+            </div>
+            <footer data-role="footer">
+                <h3>&copy;2558 Athikan Thongjanya</h3>
+            </footer>    
+        </section>
+
+        <footer data-role="footer" data-position="fixed" data-fullscreen="true">
+            <a>Info 1</a>
+            <a>Info 2</a>
+            <a>Info 3</a>
+            <a>Info 4</a>
+            <h3>&copy;2558 Athikan Thongjanya</h3>
+        </footer>   
+    </body>
+</html>
